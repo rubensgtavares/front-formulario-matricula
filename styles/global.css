@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*Fonts*/
+  --font-family: "Poppins", sans-serif;
+  --text: 400 1rem/1.5 var(--font-family);
+  --text-sm: 400 0.875rem/1.4 var(--font-family);
+
+  /* Brand */
+  --brand-light: #f67841;
+  --brand-mid: #f3541c;
+  --brand-dark: #e43a12;
+
+  /* Text */
+  --text-primary: #292524;
+  --text-secondary: #57534e;
+  --text-tertiary: #8f8881;
+  --text-highlight: #e43a12;
+
+  /* Surface */
+  --surface-primary: #ffffff;
+  --surface-secondary: #fed7d6;
+  --surface-disabled: #e7e5e4;
+
+  /* Stroke */
+  --stroke-default: #d6d3d1;
+  --stroke-highlight: #f3541c;
+
+  /* Semantic */
+  --semantic-error: #dc2626;
+
+  /* Typography */
+  --heading1: 700 2rem/120% "Poppins", sans-serif;
+  --heading2: 700 1.5rem/120% "Poppins", sans-serif;
+  --heading3: 700 1.25rem/120% "Poppins", sans-serif;
+  --heading4: 700 1rem/120% "Poppins", sans-serif;
+}
+
+body {
+  font: var(--text);
+  color: var(--text-secondary);
+  background-color: var(--surface-primary);
+}
+
+h1,
+h2 {
+  color: var(--text-primary);
+}
+
+h3 {
+  font: var(--heading3);
+}
+
+h4 {
+  font: var(--heading4);
+}
+
+p {
+  font: var(--text);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
