@@ -1,3 +1,6 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d8a935bb-a4e8-4f97-a30a-9fa3b4ae60bd" />
+
+
 # Estrelas do Amanhã - Formulário de Matrícula
 
 Este projeto consiste em uma página de formulário de matrícula responsiva para a escola de educação infantil "Estrelas do Amanhã". O objetivo é fornecer uma interface amigável e acessível para que pais e responsáveis possam matricular seus filhos.
